@@ -162,7 +162,15 @@ This interface also referred to as the shell.
 
 ## The Anatomy of the Terminal
 
-The console is the system as a whole. This includes both the command line and the output from pervious commands. The command line is the line where you enter commands. The prompt is the beginning of the command line. It usually provides some contextual information about where you are in the system (e.g. the file path). The prompt typically ends in an $. The prompt will also include your user name (Pi, in this case) @ root or the top most directory in the system (also, Pi). 
+The console is the system as a whole. 
+
+This includes both the command line and the output from pervious commands. 
+
+The command line is the line where you enter commands. 
+
+The prompt is the beginning of the command line. It usually provides some contextual information about where you are in the system (e.g. the file path). 
+
+The prompt typically ends in an $. The prompt will also include your user name (Pi, in this case) @ root or the top most directory in the system (also, Pi). 
 
 The terminal is the interface to the consol. This program is a “terminal emulator,” simulating the experience of typing into an ‘old school’ terminal from our contemporary GUI. 
 
@@ -172,7 +180,7 @@ The terminal is the interface to the consol. This program is a “terminal emula
 
 At the Terminal, type the command `sudo apt-get update` and press the enter key.
 
-<blockquote>You cannot use the mouse to navigate on this screen. Use the keyboard to type the commands and the ENTER key to execute commands. You can scroll using the mouse and scroll bar on the right side of the Terminal window.</blockquote>
+<blockquote>You cannot use the mouse to navigate on this screen. Use the keyboard to type the commands and the <code>ENTER</clode> key to execute commands. You can scroll using the mouse and scroll bar on the right side of the Terminal window.</blockquote>
 
 <blockquote>You may also use the COPY and PASTE functions to copy code, but use caution when copying code from unknown sources on the web. This code may contain errors and bugs that can crash or corrupt your system. It is good practice to type in the code yourself.</blockquote>
 
@@ -194,7 +202,7 @@ We use `sudo` so that we do not navigate the OS as a super user all of the time,
 
 For more on why sudo is used see http://www.techrepublic.com/blog/linux-and-open-source/do-you-sudo-learn-the-basics/.
 
-<blockquote>Q5: Consider the first command that we ran `sudo apt-get update`, try running the command without the leading sudo. What happens? Why?</blockquote>
+<blockquote>Q5: Consider the first command that we ran <code>sudo apt-get update</code>, try running the command without the leading <code>sudo</code>. What happens? Why?</blockquote>
 
 We will revisit `apt-get update` and `apt-get upgrade` in future projects. 
 
@@ -237,10 +245,9 @@ Try the same command substituting `Desktop` for the `~`.
 
 You will now see the contents of the Desktop directory. Nothing is here yet, because you haven’t created any new files on your desktop.
 
-<blockquote>Q7: Try using the same command with desktop. What happens?</blockquote>
+<blockquote>Q7: Try using the same command with <code>desktop</code>. What happens?</blockquote>
 
-<blockquote>Q8: Open the word processing program on the Pi, create a new file, and save it to the Desktop. Now re-run the command ls -l Desktop at the Terminal.
-What do you see?</blockquote>
+<blockquote>Q8: Open the word processing program on the Pi, create a new file, and save it to the Desktop. Now re-run the command <code>ls -l Desktop</code> at the Terminal. What do you see?</blockquote>
 
 Now let’s change the directory. 
 
@@ -284,7 +291,7 @@ Now that we know how to move around the file system, we need a way to check wher
 
 The `pwd` command will “print the working directory,” or show you the file path to your current directory.
 
-<blockquote>Is your command line too cluttered? Use the `clear` command to clear the screen.</blockquote>
+<blockquote>Is your command line too cluttered? Use the <code>clear</code> command to clear the screen.</blockquote>
 
 ### Command Line Troubleshooting
 
