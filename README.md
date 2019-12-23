@@ -33,7 +33,8 @@ Laptop or desktop computers use a fan for this purpose.
 
 Watch the video at https://youtu.be/PiG-jyDq1po for install instructions.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_1.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_1.jpg?raw=true" /></a></p>
+
 Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 # Installing Raspbian With NOOBS
@@ -42,7 +43,7 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 If you have a SD card pre-loaded with NOOBS and Raspbian, then you are ready to turn on your Pi. Before plugging in your Pi, be sure to insert your SD card into your Pi and connect your monitor, keyboard, and mouse.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_2.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_2.jpg?raw=true" /></a></p>
 
 The first time you turn on your Raspbery Pi, you will be greeted with a prompt from NOOBS. Select the Raspbian OS by clicking on the box next to the Raspbian Icon. 
 
@@ -50,19 +51,19 @@ Select the language and keyboard you want to use for the installation.
 
 Click INSTALL at the top of the screen to start the installation process.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_3.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_3.jpg?raw=true" /></a></p>
 
 Click Yes in the pop-up window to proceed.
 
 This Warning is simply a failsafe in case you have already installed an OS on your Pi. It is simply warning you that anything on your Pi will be erased and replaced by this installation of Raspbian. As you do not have anything installed on your Pi, it is ok to click YES to proceed.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_4.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_4.jpg?raw=true" /></a></p>
 
 When the installation is complete, a dialog box will appear announcing the successful installation of the OS.
 
 Click Ok on the pop-up window.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_6.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
 Watch your Pi run through its first Boot Sequence.
 
@@ -70,7 +71,7 @@ The Boot Sequence is the process that takes place when a PC is turned on and per
 
 ## Configuring Raspbian
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_7.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_7.jpg?raw=true" /></a></p>
 
 Click on the Menu button, then scroll down to Preferences, and click on Raspberry Pi Configuration.
 
@@ -120,7 +121,7 @@ Select US from the Wifi Country Codes.
 
 <blockquote>WiFi networks use radio waves to transmit information across wireless networks. However, Wi-Fi isn’t the same in every country. International regulatory agencies limit Wi-Fi to different parts of the radio frequency spectrum. In the US, the Radio Frequency Management Division of the National Oceanic and Atmospheric Administration manages the RF spectrum. http://www.cio.noaa.gov/rfm/index.html</blockquote>
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_8.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_8.jpg?raw=true" /></a></p>
 
 You will now be prompted to reboot your Pi. Select Yes.
 
@@ -128,7 +129,7 @@ You will now be prompted to reboot your Pi. Select Yes.
 
 <blockquote>If you prefer to connect via Ethernet, simply insert the cable into the port on the side of the Pi. This is often the more reliable way to connect to the Internet when on campus.</blockquote>
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_9.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_9.jpg?raw=true" /></a></p>
 
 Click the network icon on the Desktop (located in the top right-hand corner).
 
@@ -146,11 +147,11 @@ Now you can take some time to explore Raspbian and the default software package.
 
 # Updating Software and Working at the Command Line
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_10.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_10.jpg?raw=true" /></a></p>
 
 Open a Terminal session to work at the command line. To access the Terminal, click on the icon at the menu bar. You can also click Menu > Accessories > Terminal.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_11.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_11.jpg?raw=true" /></a></p>
 
 This is the command-line interface.
 
