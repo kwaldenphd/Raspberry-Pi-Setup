@@ -169,7 +169,7 @@ This includes both the command line and the output from pervious commands.
 
 The command line is the line where you enter commands. 
 
-The prompt is the beginning of the command line. It usually provides some contextual information about where you are in the system (e.g. the file path). 
+The prompt is the beginning of the command line. It usually provides some contextual information about where you are in the system (e.g. the file path and working directory). 
 
 The prompt typically ends in an $. The prompt will also include your user name (Pi, in this case) @ root or the top most directory in the system (also, Pi). 
 
@@ -224,13 +224,13 @@ Let's use `ls -l ~` as an example.<sup><a href="#fn8" id="ref8">8</a></sup>
 
 Think of the program as the verb in a sentence. 
 
-In this case, `ls` is the program. It is short for list and will show you a list of files in the current directory. 
+In this case, `ls` is the program. `ls` is short for list and will show you a list of files in the current directory. 
 
 Try running this program now.
 
 Think of options as adverbs in a sentence. They will modify the way the program runs.
 
-In this example `–l` is the option; it is short for “long.” 
+In this example `–l` is the option; it is short for “long.” The dash in `-l` is the *option specifier* that modifies the behavior of the option.
 
 This displays the same list of files with additional information. 
 
@@ -294,9 +294,93 @@ The `pwd` command will “print the working directory,” or show you the file p
 
 <blockquote>Is your command line too cluttered? Use the <code>clear</code> command to clear the screen.</blockquote>
 
+### Creating a Trash Directory
+
+Linux systems (the OS Raspbian is built on) don't have a recycle bin or trash can like we'd find in a Mac or Windows system.
+
+In Linux, when you delete a file, that file is permanently deleted.
+
+We can create a `trash` directory using the `mkdir` command for files you want to "delete" but not permanently "delete."
+
+### File Permissions
+
+Each file and directory in Linux belongs to both an owner and a group. Usually, the owner is the person who created the file. 
+
+Each file has three types of permissions:
+- read permission (allowed to look at the file’s contents)
+** `r` stands for read
+- write permission (allowed to modify the file)
+** `w` stands for write
+- execute permission (allowed to execute, or run, the file as a computer program)
+** `x` stands for execute
+
+We can either allow or deny each of these permissions to three categories of people:
+- the owner or user for the file
+** `u` stands for user
+- the group for the file, and
+** `g` stands for group
+- other or EVERYONE else (often called “world”)
+** `o` stands for other
+
+You can see owner information for files in a directory using `ls -l`.
+
+```drwxrwxrwx 2 waldenka waldenka 4096 Jan 31 15:12 mydir```
+
+The first triplet of `rwx` indicates the user’s permissions, the second triplet indicates the group’s permissions, and the third triplet indicates the world permissions. The presence of an `r`, `w`, or `x` means that this permission is allowed for the particular category. If the permission is denied, the spot will be occupied by a `-` (dash).
+
+The `chmod` command can be used to change file permissions and ownership. 
+
+A few examples:
+- `chmod ugo+x [filename]` would give the execute permission to all user groups.
+- `chmod u+w` gives write permission to only a user/owner.
+- `chmod og-r` takes away read permission from user/owner and group
+
+
 ### Command Line Troubleshooting
 
-While there are many places to turn for help (your classmates, your instructor, the all-knowing Google), the Terminal is also equipped with a help manual. 
+Julia Evans' "Bite Size Command Line" zine introduced us to other commands not covered in this lab.
+
+A brief explanation of a few commands that may be useful (adapted from Jerod Weinman's [Linux Commands](http://www.cs.grinnell.edu/~weinman/courses/CSC105/2015S/commands.html):
+
+<table>
+  <tr>
+    <th>Command</th>
+    <th>What it stands for</th>
+    <th>What it does</th>
+  </tr>
+  <tr>
+    <td><code>pwd</code></td>
+    <td>print working directory</td>
+    <td>displays the name of your current directory</td>
+  </tr>
+  <tr>
+    <td><code>ls -l</code></td>
+    <td>list (long form)</td>
+    <td>displays contents of your current directory</td>
+  </tr>
+  <tr>
+    <td><code>mkdir dirName</code></td>
+    <td>make directory</td>
+    <td> creates a new directory</td>
+  </tr>
+  <tr>
+    <td><code>cp sourceFile targetFile</code></td>
+    <td>copy</td>
+    <td>makes a copy of <code>sourceFile</code> called <code>targetFile</code></td>
+  </tr>
+  <tr>
+    <td><code>mv sourceFile targetFile</code></td>
+    <td>move/rename</td>
+    <td>renames <code>sourceFile</code> to <code>targetFile</code></td>
+  </tr>
+  <tr>
+    <td><code>chmod XXX filename</code></td>
+    <td>change mode</td>
+    <td>changes permissions on <code>fileName</code></td>
+  </tr>
+  </table>
+
+While there are many places to turn for help (your classmates, your instructor, the course mentor, etc.), the Terminal is also equipped with a help manual. 
 
 The manual is accessed using the `man` command.
 
