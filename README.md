@@ -361,6 +361,12 @@ If you’d like some more practice, try the exercises at:
 
 <blockquote>Q11: Take a few moments to reflect on your experience. How does your navigation of the computer at the command line compare other ways of navigating a computer’s user interface?</blockquote>
 
+# Appendix (if extra time)
+
+Finished setting up your LAMP server? With your extra time you can put your website from the HTML project live on the web. 
+
+The [`no-ip-instructions.md`](https://github.com/kwaldenphd/LAMP-stack/blob/master/no-ip-instructions.md) file in this repo includes instructions for getting started with No-IP.
+
 # Endnotes
 
 <sup id="fn1">1. Central processing unit: a microprocessor or microchip that processes the information and code (instructions) used by the computer. The ‘brains’ of a computer.<a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
