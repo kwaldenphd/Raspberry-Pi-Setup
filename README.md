@@ -1,4 +1,10 @@
-# Lab: Introduction to Raspberry Pi
+# Introduction to Raspberry Pi
+
+
+This tutorial was written by [Lindsay K. Mattock](http://lindsaymattock.net) and adapted by [Katherine Walden](https://github.com/kwaldenphd). 
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
+This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 In this lab, you’ll tackle your first project with the Raspberry Pi. Unlike most computers, the Raspberry Pi does not have an operating system installed on its hard drive. You’ll have to do this yourself.
 
@@ -8,6 +14,10 @@ By the end of this lab, you will be able to:
 - Install and configure a Linux Operating System
 - Define the functions of an Operating System
 - Navigate the computer's file system at the command line
+
+## Acknowledgements
+
+This lab is based on the "Project 2: Introduction to Raspberry Pi" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Raspbian OS
 
