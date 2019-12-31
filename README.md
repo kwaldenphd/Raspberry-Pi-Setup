@@ -20,25 +20,25 @@ By the end of this lab, you will be able to:
 This lab is based on the "Project 2: Introduction to Raspberry Pi" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
-- [Raspbian OS]
-- [Install the Heatsinks]
-- [Install Raspbian with NOOBS]
-  * [Configuring-Raspbian]
-    * [System Tab]
-    * [Localisation Tab]
-  * [Connecting to WiFi]
-- [Exploring Raspbian]
-- [Updating Software and Working at the Command Line]
-- [The Anatomy of the Terminal]
-- [Updating the OS]
-- [Navigating the Command Line]
-  * [Other Commands]
-  * [Where Am I?]
-  * [Creating a Trash Directory]
-  * [File Permissions]
-  * [Command Line Troubleshooting]
-- [Endnotes]
-- [Lab Questions]
+- [Raspbian OS](#raspbian-os)
+- [Install the Heatsinks](#install-the-heatsinks)
+- [Install Raspbian with NOOBS](#install-raspbian-with-noobs)
+  * [Configuring-Raspbian](#configuring-raspbian)
+    * [System Tab](#system-tab)
+    * [Localisation Tab](#localisation-tab)
+  * [Connecting to WiFi](#connecting-to-wifi)
+- [Exploring Raspbian](#exploring-raspbian)
+- [Updating Software and Working at the Command Line](#updating-software-and-working-at-the-command-line)
+- [The Anatomy of the Terminal](#the-anatomy-of-the-terminal)
+- [Updating the OS](#updating-the-os)
+- [Navigating the Command Line](#navigating-the-command-line)
+  * [Other Commands](#other-commands)
+  * [Where Am I?](#where-am-i)
+  * [Creating a Trash Directory](#creating-a-trash-directory)
+  * [File Permissions](#file-permissions)
+  * [Command Line Troubleshooting](#command-line-troubleshooting)
+- [Endnotes](#endnotes)
+- [Lab Questions](#lab-questions)
   
 # Raspbian OS
 
