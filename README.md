@@ -19,6 +19,27 @@ By the end of this lab, you will be able to:
 
 This lab is based on the "Project 2: Introduction to Raspberry Pi" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
+# Table of Contents
+- [Raspbian OS]
+- [Install the Heatsinks]
+- [Install Raspbian with NOOBS]
+  * [Configuring-Raspbian]
+    * [System Tab]
+    * [Localisation Tab]
+  * [Connecting to WiFi]
+- [Exploring Raspbian]
+- [Updating Software and Working at the Command Line]
+- [The Anatomy of the Terminal]
+- [Updating the OS]
+- [Navigating the Command Line]
+  * [Other Commands]
+  * [Where Am I?]
+  * [Creating a Trash Directory]
+  * [File Permissions]
+  * [Command Line Troubleshooting]
+- [Endnotes]
+- [Lab Questions]
+  
 # Raspbian OS
 
 Without an operating system, the Raspberry Pi is a blank machine. Computers require an operating system like the Mac OS or Windows to run the hardware of the machine. You can explore the various pieces of the Raspberry Pi hardware at http://vanillawebdiet.com/demos/raspberry.html. 
@@ -89,29 +110,21 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 15. Now we need to set our time zone and a few other details. The Pi is a British computer, so all of the defaults are set to British English.
 
-#### Click Set Locale.
-
-16. Change the country to USA. Leave the character set at UTF-8.
+16. Click Set Locale. Change the country to USA. Leave the character set at UTF-8.
 
 17. Click Ok.
 
-#### Click Set Timezone.
-
-18. Set the Area to US. Set the location to Central.
+18. Click Set Timezone. Set the Area to US. Set the location to Central.
 
 19. Click OK.
 
-#### Click Set Keyboard
-
-20. The Keyboard layout should be set to the United States in the left column. Select your keyboard type.
+20. Click Set Keyboard. The Keyboard layout should be set to the United States in the left column. Select your keyboard type.
 
 21. Click the X at the top of the Window to close the keyboard options.
 
 <blockquote>Q2: Why would it be important to ensure your keyboard is set to the correct type?</blockquote>
 
-#### Set WiFi Country
-
-22. Select US from the Wifi Country Codes.
+22. Set WiFi Country. Select US from the Wifi Country Codes.
 
 <blockquote>WiFi networks use radio waves to transmit information across wireless networks. However, Wi-Fi isn’t the same in every country. International regulatory agencies limit Wi-Fi to different parts of the radio frequency spectrum. In the US, the Radio Frequency Management Division of the National Oceanic and Atmospheric Administration manages the RF spectrum. http://www.cio.noaa.gov/rfm/index.html</blockquote>
 
@@ -161,11 +174,12 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 <blockquote>Q4: Open a Terminal on your laptop or desktop. How does the prompt compare? What is your user name? What is the root?</blockquote>
 
-## Update the OS
+## Updating the OS
 
 34. At the Terminal, type the command `sudo apt-get update` and press the enter key.
 
-<blockquote>You cannot use the mouse to navigate on this screen. Use the keyboard to type the commands and the <code>ENTER</clode> key to execute commands. You can scroll using the mouse and scroll bar on the right side of the Terminal window.</blockquote>
+<blockquote>You cannot use the mouse to navigate on this screen. Use the keyboard to type the commands and the 
+<code>ENTER</code> key to execute commands. You can scroll using the mouse and scroll bar on the right side of the Terminal window.</blockquote>
 
 <blockquote>You may also use the COPY and PASTE functions to copy code, but use caution when copying code from unknown sources on the web. This code may contain errors and bugs that can crash or corrupt your system. It is good practice to type in the code yourself.</blockquote>
 
