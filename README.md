@@ -128,7 +128,7 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 <blockquote>WiFi networks use radio waves to transmit information across wireless networks. However, Wi-Fi isn’t the same in every country. International regulatory agencies limit Wi-Fi to different parts of the radio frequency spectrum. In the US, the Radio Frequency Management Division of the National Oceanic and Atmospheric Administration manages the RF spectrum. http://www.cio.noaa.gov/rfm/index.html</blockquote>
 
-<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_8.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_8.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_9.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_9.jpg?raw=true" /></a></p>
 
 23. You will now be prompted to reboot your Pi. Select Yes.
 
@@ -136,7 +136,7 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 <blockquote>If you prefer to connect via Ethernet, simply insert the cable into the port on the side of the Pi. This is often the more reliable way to connect to the Internet when on campus.</blockquote>
 
-<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_9.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_9.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_10.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_10.jpg?raw=true" /></a></p>
 
 24. Click the network icon on the Desktop (located in the top right-hand corner). Select your preferred WiFi network. Enter your password if prompted.
 
@@ -150,11 +150,9 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 # Updating Software and Working at the Command Line
 
-<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_10.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_10.jpg?raw=true" /></a></p>
+<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_11.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_11.jpg?raw=true" /></a></p>
 
 27. Open a Terminal session to work at the command line. To access the Terminal, click on the icon at the menu bar. You can also click Menu > Accessories > Terminal.
-
-<p align="center"><a href="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_11.jpg?raw=true?"><img class="aligncenter" src="https://github.com/kwaldenphd/Raspberry-Pi-Setup/blob/master/images/Image_11.jpg?raw=true" /></a></p>
 
 28. This is the command-line interface. From here, you can access all of the files and applications in the computer, without the limitations of the graphical interface (GUI) that you usually interact with. 
 
