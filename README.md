@@ -403,24 +403,24 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 All of the required questions are listed here for you to reference. Be sure to answer each question completely, including an explanation of how you arrived at your answer.
 
-- Q1: What operating systems are you most familiar with? What aspects of the OS do you find to be most useful? What differences have you noticed between operating systems, if any?
+Q1: What operating systems are you most familiar with? What aspects of the OS do you find to be most useful? What differences have you noticed between operating systems, if any?
 
-- Q2: Why would it be important to ensure that your keyboard is set to the correct type?
+Q2: Why would it be important to ensure that your keyboard is set to the correct type?
 
-- Q3: How is Raspbian similar to the operating system on your PC or Mac? How is it different? What software is pre-packaged with the OS? How do you navigate the system and applications?
+Q3: How is Raspbian similar to the operating system on your PC or Mac? How is it different? What software is pre-packaged with the OS? How do you navigate the system and applications?
 
-- Q4: Open a Terminal on your laptop or desktop. How does the prompt compare? What is your user name? What is the root?
+Q4: Open a Terminal on your laptop or desktop. How does the prompt compare? What is your user name? What is the root?
 
-- Q5: Consider the first command that we ran `sudo apt-get` update, try running the command without the leading sudo. What happens? Why?
+Q5: Consider the first command that we ran `sudo apt-get` update, try running the command without the leading sudo. What happens? Why?
 
-- Q6: Can you decipher the information that is displayed? Watch https://youtu.be/LAwmynJHU24 to help decode the information.
+Q6: Can you decipher the information that is displayed? Watch https://youtu.be/LAwmynJHU24 to help decode the information.
 
-- Q7: Try using the same command with `desktop`. What happens?
+Q7: Try using the same command with `desktop`. What happens?
 
-- Q8: Open the word processing program on the Pi, create a new file, and save it to the Desktop. Now re-run the command `ls -l Desktop` at the Terminal. What do you see?
+Q8: Open the word processing program on the Pi, create a new file, and save it to the Desktop. Now re-run the command `ls -l Desktop` at the Terminal. What do you see?
 
-- Q9: Your command prompt has changed. What information is in the prompt now? Is this useful?
+Q9: Your command prompt has changed. What information is in the prompt now? Is this useful?
 
-- Q10: How does this method of navigation compare to how you usually access the files and folders on your computer?
+Q10: How does this method of navigation compare to how you usually access the files and folders on your computer?
 
-- Q11: How does your navigation of the computer at the command line compare other ways of navigating a computer’s user interface?
+Q11: How does your navigation of the computer at the command line compare other ways of navigating a computer’s user interface?
