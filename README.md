@@ -224,7 +224,7 @@ Image from: http://images.nsioutlet.com/product/nt_020804-0006j_c2a.jpg
 
 51. This displays the same list of files with additional information. For a full list of all of the options for the `ls` command see http://linuxcommand.org/man_pages/ls1.html
 
-<blockuote>Q6: Can you decipher the information that is displayed? Watch https://youtu.be/LAwmynJHU24 to help decode the information.</blockquote>
+<blockquote>Q6: Can you decipher the information that is displayed? Watch https://youtu.be/LAwmynJHU24 to help decode the information.</blockquote>
 
 52. The final part of the command (the argument) can be thought of as the object of the sentence. 
 
